@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext"
+    ],
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/**/*.d.ts"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
